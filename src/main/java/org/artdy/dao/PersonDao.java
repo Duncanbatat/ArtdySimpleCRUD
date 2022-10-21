@@ -1,6 +1,6 @@
-package org.example.dao;
+package org.artdy.dao;
 
-import org.example.models.Person;
+import org.artdy.models.Person;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

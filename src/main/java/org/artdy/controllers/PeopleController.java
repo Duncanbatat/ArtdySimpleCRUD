@@ -1,7 +1,7 @@
-package org.example.controllers;
+package org.artdy.controllers;
 
-import org.example.dao.PersonDao;
-import org.example.models.Person;
+import org.artdy.dao.PersonDao;
+import org.artdy.models.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package org.example.config;
+package org.artdy.config;
 
 import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
