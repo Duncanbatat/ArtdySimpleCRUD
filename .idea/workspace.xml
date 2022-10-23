@@ -9,13 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1bc8b65-be98-4721-8f12-40ca5c93a706" name="Changes" comment="Configure pom.xml, and fix the namespace issue">
+    <list default="true" id="b1bc8b65-be98-4721-8f12-40ca5c93a706" name="Changes" comment="Add PostreSQL db support with JDBC API.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/artdy/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/artdy/controllers/PeopleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/artdy/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/artdy/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;dd6fd1b8eaae9f43c340785397bfb4e6&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "dd6fd1b8eaae9f43c340785397bfb4e6"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -164,7 +165,9 @@
       <updated>1664472424304</updated>
       <workItem from="1666269266417" duration="875000" />
       <workItem from="1666270160976" duration="36000" />
-      <workItem from="1666270211343" duration="2960000" />
+      <workItem from="1666270211343" duration="4243000" />
+      <workItem from="1666473100617" duration="2313000" />
+      <workItem from="1666539447753" duration="6431000" />
     </task>
     <task id="LOCAL-00001" summary="Configure pom.xml, and fix the namespace issue">
       <created>1666362654989</created>
@@ -173,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666362654989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add fields validation.">
+      <created>1666373508619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666373508619</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add PostreSQL db support with JDBC API.">
+      <created>1666551145751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666551145751</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +209,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configure pom.xml, and fix the namespace issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configure pom.xml, and fix the namespace issue" />
+    <MESSAGE value="Add fields validation." />
+    <MESSAGE value="Add PostreSQL db support with JDBC API." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add PostreSQL db support with JDBC API." />
   </component>
 </project>
