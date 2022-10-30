@@ -9,11 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1bc8b65-be98-4721-8f12-40ca5c93a706" name="Changes" comment="Move database properties to property file.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/artdy/util/PersonValidator.java" afterDir="false" />
+    <list default="true" id="b1bc8b65-be98-4721-8f12-40ca5c93a706" name="Changes" comment="Add Spring validation for Person.">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f860e6ab-6c4b-4dac-bafd-58f74cb4ee11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f860e6ab-6c4b-4dac-bafd-58f74cb4ee11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f860e6ab-6c4b-4dac-bafd-58f74cb4ee11/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f860e6ab-6c4b-4dac-bafd-58f74cb4ee11/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/artdy/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/artdy/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/artdy/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/artdy/dao/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/artdy/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/artdy/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +201,8 @@
       <workItem from="1666575887578" duration="386000" />
       <workItem from="1666637180234" duration="3706000" />
       <workItem from="1666994519434" duration="2986000" />
-      <workItem from="1667137388809" duration="1561000" />
+      <workItem from="1667137388809" duration="2453000" />
+      <workItem from="1667141187449" duration="3986000" />
     </task>
     <task id="LOCAL-00001" summary="Configure pom.xml, and fix the namespace issue">
       <created>1666362654989</created>
@@ -241,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666996652455</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Spring validation for Person.">
+      <created>1667139360589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667139360589</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +275,7 @@
     <MESSAGE value="Add fields validation." />
     <MESSAGE value="Add PostreSQL db support with JDBC API." />
     <MESSAGE value="Move database properties to property file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Move database properties to property file." />
+    <MESSAGE value="Add Spring validation for Person." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Spring validation for Person." />
   </component>
 </project>
